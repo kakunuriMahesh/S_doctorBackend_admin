@@ -12,7 +12,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:3000',       // local frontend
-  'https://s-doctorbackend-admin.onrender.com/' // your deployed frontend
+  'https://s-doctorbackend-admin.onrender.com' // your deployed frontend
 ];
 
 app.use(cors({
