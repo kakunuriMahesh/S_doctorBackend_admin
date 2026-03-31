@@ -11,6 +11,7 @@ console.log('Loaded ADMIN_SIGNUP_SECRET:', process.env.ADMIN_SIGNUP_SECRET);
 const app = express();
 
 const allowedOrigins = [
+  'http://localhost:5173',
   'http://localhost:3000',       // local frontend
   'https://s-doctorbackend-admin.onrender.com' // your deployed frontend
 ];
