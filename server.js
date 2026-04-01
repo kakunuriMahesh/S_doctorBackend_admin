@@ -12,7 +12,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://yellowgreen-bear-148896.hostingersite.com',
+  'https://yellowgreen-bear-148896.hostingersite.com', // your deployed frontend
   'http://localhost:3000',       // local frontend
   'https://s-doctorbackend-admin.onrender.com' // your deployed frontend
 ];
